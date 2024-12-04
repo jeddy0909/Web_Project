@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TwentyWendy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="final.html" class="logo">
+      <img src="TwentyWendy.png" alt ="logo">
+    </a>
+    <nav class="navbar">
+      <a href="Final.html">HOME</a>
+      <a href="About.html">ABOUT US</a>
+      <a href="Product.html">PRODUCT</a>
+      <a href="checkout.html"><i class="fa fa-shopping-cart"></i></a>
+      <a href="Review.html"><i class="fa fa-heart"></i></a>
+  </nav>
+  </header>
+  <main>
+    <section class="Review" id="review">
+      <h1>💖FEEDBACK FORM💖</h1>
+      <form id="feedback-form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="contact">Contact:</label><br>
+        <input type="text" id="contact" name="contact"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="date">Date Submitted:</label><br>
+        <input type="date" id="date" name="date"><br>
+        <label for="review">Review:</label><br>
+        <textarea id="review-text" name="review" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Submit Review">
+      </form>
+      <p class="error-message" id="error-message" style="color: red; font-weight: bold; font-size: 1.2rem;">⚠️ Please fill out all fields before submitting.</p>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="feedback-modal" class="modal">
+    <div class="modal-content">
+      <h2>Thank You For Being Our Wendy! <span class="heart">❤️</span></h2><br>
+      <p>Your feedback has been submitted successfully!</p>
+      <button onclick="closeModal()">Close</button>
+    </div>
+  </div>
+  <div id="error-modal" class="modal" style="display: none;">
+    <p>Please fill out all fields.</p>
+    <button onclick="closeErrorModal()">Close</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<footer>
+  <div class="footer">
+    <div class="footer-section quicklinks">
+      <h3>Quick Links:</h3>
+        <li><a href="final.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Product.html">Shop Now</a></li>
+        <li><a href="Review.html">Review </a></li>
+    </div>
+    <div class="footer-section sns">
+      <h3>Follow Us On</h3>
+      <a href="https://www.facebook.com/search/top?q=twentywendy"><i class="fa fa-facebook"></i></a><a href="https://www.instagram.com/twentywendy/"><i class="fa fa-instagram"></i></a>
+      
+    </div>
+    <div class="footer-content">
+      <h3>Contact Us:</h3>
+      <li><p>Email:TwentyWendy@gmail.com</p></li>
+      <li><p>Contact:+123-456-7890</p></li>
+      <li><p>Address:Address: 123 Wendy Street, Bangkok, Thailand</p></li>
+    </div>
+
+
+  </div>
+  <div class="footer-bottom">
+    &copy;Original Brand: TwentyWendy <br> Designed by VIN Hellan, CHEUNG SokPanha, PIN Reaksmey<br> ( For Educational Purpose Only )
+  </div>
+</footer>
+</html>

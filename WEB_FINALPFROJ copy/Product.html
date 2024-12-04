@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TwentyWendy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="final.html" class="logo">
+      <img src="TwentyWendy.png" alt ="logo">
+    </a>
+    <nav class="navbar">
+      <a href="Final.html">HOME</a>
+      <a href="About.html">ABOUT US</a>
+      <a href="Product.html">PRODUCT</a>
+      <a href="checkout.html"><i class="fa fa-shopping-cart"></i></a>
+      <a href="Review.html"><i class="fa fa-heart"></i></a>
+  </nav>
+  </header>
+  <main>
+    
+    <section class="Prod-home" id="Prod-home">
+        <h1>OUR PRODUCT</h1>
+    </section>
+    <section class="GS" id="GS">
+        <h2>Glasting Star</h2>
+        <p>Glasting Star — a lip collection that makes your smile as radiant as the night sky. Each lip product is infused with a luminous, glistening formula that delivers a perfect balance of hydration, shimmer, and long-lasting shine. From soft, pearly glosses to velvety lipsticks that catch the light with every movement, the Glasting Star collection gives your lips a starry, out-of-this-world glow. Shine like the star you are—effortlessly beautiful and irresistibly radiant.💫✨</p>
+        <div class="product-container">
+        <div class="product-item">
+          <figure>
+            <img src="Shaula.jpeg" alt="Shuala">
+            <figcaption>🪐Shuala<br>🌟Price: 290 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-shuala')">-</button>
+              <input type="number" id="quantity-shuala" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-shuala')">+</button>
+            </div>
+            <button onclick="addToCart('Shuala', 'quantity-shuala', 290)">Add to Cart</button>
+          </figure>
+        </div>
+        <div class="product-item">
+            <figure>
+              <img src="Sargas.jpg" alt="Sargas">
+              <figcaption>💫Sargas<br>🌟Price: 290 Baht.-</figcaption>
+              <div class="quantity-control">
+                <button onclick="decreaseQuantity('quantity-sargas')">-</button>
+                <input type="number" id="quantity-sargas" value="0" min="0">
+                <button onclick="increaseQuantity('quantity-sargas')">+</button>
+              </div>
+              <button onclick="addToCart('Sargas', 'quantity-sargas', 290)">Add to Cart</button>
+            </figure>
+        </div>
+        <div class="product-item">
+            <figure>
+              <img src="Graffias.jpeg" alt="Graffias">
+              <figcaption>✨Graffias<br>🌟Price: 290 Baht.-</figcaption>
+              <div class="quantity-control">
+                <button onclick="decreaseQuantity('quantity-graffias')">-</button>
+                <input type="number" id="quantity-graffias" value="0" min="0">
+                <button onclick="increaseQuantity('quantity-graffias')">+</button>
+              </div>
+              <button onclick="addToCart('Graffias', 'quantity-graffias', 290)">Add to Cart</button>
+            </figure>
+        </div>
+        <div class="product-item">
+            <figure>
+              <img src="Dschubba.jpeg" alt="Dschubba">
+              <figcaption>🌟Dschubba<br>🌟Price: 290 Baht.-</figcaption>
+              <div class="quantity-control">
+                <button onclick="decreaseQuantity('quantity-ds')">-</button>
+                <input type="number" id="quantity-ds" value="0" min="0">
+                <button onclick="increaseQuantity('quantity-ds')">+</button>
+              </div>
+              <button onclick="addToCart('Dschubba', 'quantity-ds', 290)">Add to Cart</button>
+            </figure>
+        </div>
+        <div class="product-item">
+            <figure>
+              <img src="Antares.jpeg" alt="Antares">
+              <figcaption>⭐️Antares <br>🌟Price: 290 Baht.-</figcaption>
+              <div class="quantity-control">
+                <button onclick="decreaseQuantity('quantity-antares')">-</button>
+                <input type="number" id="quantity-antares" value="0" min="0">
+                <button onclick="increaseQuantity('quantity-antares')">+</button>
+              </div>
+              <button onclick="addToCart('Antares', 'quantity-antares', 290)">Add to Cart</button>
+            </figure>
+        </div>
+    </section>
+    <section class="Blush" id="Blush">
+      <h2>Cheek My Blush</h2>
+      <p>Get ready to Cheek My Blush—the blush collection that adds a pop of playful color and a natural, lit-from-within glow to your cheeks. With a dreamy range of shades, each formula blends effortlessly for a soft, buildable finish that looks fresh and radiant all day long.💖🌸 </p>
+      <div class="blush-container">
+        <div class="blush-item">
+          <figure>
+            <img src="CP.JPG" alt="Chalk Pink">
+            <figcaption>✏️Chalk Pink<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-cp')">-</button>
+              <input type="number" id="quantity-cp" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-cp')">+</button>
+            </div>
+            <button onclick="addToCart('Chalk Pink', 'quantity-cp', 350)">Add to Cart</button>
+          </figure>
+        </div>
+        <div class="blush-item">
+          <figure>
+            <img src="COLOR.JPG" alt="Color Pencil">
+            <figcaption>🖍️Color Pencil<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-pencil')">-</button>
+              <input type="number" id="quantity-pencil" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-pencil')">+</button>
+            </div>
+            <button onclick="addToCart('Color Pencil', 'quantity-pencil', 350)">Add to Cart</button>
+          </figure>
+        </div>
+        <div class="blush-item">
+          <figure>
+            <img src="HR.JPG" alt="Home Room">
+            <figcaption>📚Home Room<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-hr')">-</button>
+              <input type="number" id="quantity-hr" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-hr')">+</button>
+            </div>
+            <button onclick="addToCart('Home Room', 'quantity-hr', 350)">Add to Cart</button>
+          </figure>
+        </div>
+        <div class="blush-item">
+          <figure>
+            <img src="LP.JPG" alt="Leisure Pink">
+            <figcaption>💗Leisure Pink <br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-lp')">-</button>
+              <input type="number" id="quantity-lp" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-lp')">+</button>
+            </div>
+            <button onclick="addToCart('Leisure Pink', 'quantity-lp', 350)">Add to Cart</button>
+          </figure>
+        </div>
+    </section>
+
+    <section class="PND" id="PND">
+      <h2>The Picnic Day</h2>
+      <p>Say hello to The Picnic Day Collection—your ultimate lip essentials for a day of sunshine, laughter, and effortless charm. Whether you're snacking on strawberries or catching up with friends, your lips will stay smooth, nourished, and picnic-perfect all day long. Let the sunshine in, and bring a little sweetness to your smile! 🌷🍓🌞</p>
+      <div class="product-container">
+        <div class="product-item">
+          <figure>
+            <img src="Croi.jpg" alt="Croissant">
+            <figcaption>🥐Croissant<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-cr')">-</button>
+              <input type="number" id="quantity-cr" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-cr')">+</button>
+            </div>
+            <button onclick="addToCart('Croissant', 'quantity-cr', 350)">Add to Cart</button>
+          </figure>
+        </div>
+        <div class="product-item">
+          <figure>
+            <img src="Basket.jpg" alt="Basket">
+            <figcaption>🧺Basket<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-basket')">-</button>
+              <input type="number" id="quantity-basket" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-basket')">+</button>
+            </div>
+            <button onclick="addToCart('Basket', 'quantity-basket', 350)">Add to Cart</button>
+          </figure>
+        </div>
+        <div class="product-item">
+          <figure>
+            <img src="Sandwich.jpg" alt="Sandwich">
+            <figcaption>🥪 Sandwich<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-sw')">-</button>
+              <input type="number" id="quantity-sw" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-sw')">+</button>
+            </div>
+            <button onclick="addToCart('Sandwich', 'quantity-sw', 350)">Add to Cart</button>
+          </figure>
+        </div>
+        <div class="product-item">
+          <figure>
+            <img src="Tulip.jpg" alt="Tulip">
+            <figcaption>🌷Tulip<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-tl')">-</button>
+              <input type="number" id="quantity-tl" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-tl')">+</button>
+            </div>
+            <button onclick="addToCart('Tulip', 'quantity-tl', 350)">Add to Cart</button>
+          </figure>
+        </div>
+        <div class="product-item">
+          <figure>
+            <img src="Lemonade.jpg" alt="Lemonade">
+            <figcaption>🍋Lemonade<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-lmn')">-</button>
+              <input type="number" id="quantity-lmn" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-lmn')">+</button>
+            </div>
+            <button onclick="addToCart('Lemonade', 'quantity-lmn', 350)">Add to Cart</button>
+          </figure>
+        </div>
+    </section>
+
+
+        
+
+    
+    <section class="PPW" id="PPW">
+        <h2>Back 2 School</h2>
+        <p>Get ready to ace your look with the Back2School collection—the perfect lip essentials to kick off the new semester with confidence and style! The smooth, long-lasting formulas ensure your lips stay nourished all day long. Because who says school can’t be stylish? Ready, set, glow! ✏️📚💋</p>
+        <div class="powder-container">
+        <div class="powder-item">
+          <figure>
+            <img src="Pink Racket.jpeg" alt="Pink Racket.jpeg">
+            <figcaption>💞Pink Racket<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-pr')">-</button>
+              <input type="number" id="quantity-pr" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-pr')">+</button>
+            </div>
+            <button onclick="addToCart('Pink Racket', 'quantity-pr', 350)">Add to Cart</button>
+
+          </figure>
+        </div>
+        <div class="powder-item">
+            <figure>
+              <img src="Glowy Trophy.jpeg" alt="Glowy Trophy.jpeg">
+              <figcaption>🏆Glowy Trophy<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-gt')">-</button>
+              <input type="number" id="quantity-gt" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-gt')">+</button>
+            </div>
+            <button onclick="addToCart('Glowy Trophy', 'quantity-gt', 350)">Add to Cart</button>
+            </figure>
+          </div>
+          <div class="powder-item">
+            <figure>
+              <img src="Gorgeous Ribbon.jpeg" alt="Gorgeous Ribbon">
+              <figcaption>🎀Gorgeous Ribbon<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-gr')">-</button>
+              <input type="number" id="quantity-gr" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-gr')">+</button>
+            </div>
+            <button onclick="addToCart('Gorgeous Ribbon', 'quantity-gr', 350)">Add to Cart</button>
+              
+            </figure>
+          </div>
+          <div class="powder-item">
+            <figure>
+              <img src="Sweet Victory.jpeg" alt="Sweet Victory">
+              <figcaption>🏅Sweet Victory<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-sv')">-</button>
+              <input type="number" id="quantity-sv" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-sv')">+</button>
+            </div>
+            <button onclick="addToCart('Sweet Victory', 'quantity-sv', 350)">Add to Cart</button>
+              
+            </figure>
+          </div>
+        </div>
+    </section>
+
+    <section class="MSC" id="MSC">
+        <h2>Fluffy Touch</h2>
+        <p>Fluffy Touch—a lip and cheek collection that’s as soft and airy as a cloud. With ultra-light formulas that blend seamlessly into skin, this collection offers a dewy, natural finish for both lips and cheeks. hether you're adding a pop of color to your lips or a soft flush to your cheeks, Fluffy Touch delivers the perfect amount of color with a delicate, feather-light feel!☁️💖</p>
+        <div class="msc-container">
+        <div class="msc-item">
+          <figure>
+            <img src="babie.jpg" alt="babie.jpg">
+            <figcaption>🍒Babie<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-babie')">-</button>
+              <input type="number" id="quantity-babie" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-babie')">+</button>
+            </div>
+            <button onclick="addToCart('Babie', 'quantity-babie', 350)">Add to Cart</button>
+          </figure>
+        </div>
+        <div class="msc-item">
+            <figure>
+              <img src="cutiepie.jpg" alt="cutie.pie">
+              <figcaption>💌Cutie Pie<br>🌟Price: 350 Baht.-</figcaption>
+             <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-CTP')">-</button>
+              <input type="number" id="quantity-CTP" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-CTP')">+</button>
+            </div>
+            <button onclick="addToCart('Cutie Pie', 'quantity-CTP', 350)">Add to Cart</button>
+            </figure>
+          </div>
+        <div class="msc-item">
+            <figure>
+              <img src="bunny.jpeg" alt="bunny.jpeg">
+              <figcaption>🐰Bunny<br>🌟Price: 350 Baht.-</figcaption>
+             <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-bnny')">-</button>
+              <input type="number" id="quantity-bnny" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-bnny')">+</button>
+            </div>
+            <button onclick="addToCart('Bunny', 'quantity-bnny', 350)">Add to Cart</button>
+            </figure>
+        </div>
+        <div class="msc-item">
+            <figure>
+              <img src="sweetie.jpeg" alt="sweetie.jpeg">
+              <figcaption>🍬Sweetie<br>🌟Price: 350 Baht.-</figcaption>
+             <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-swwt')">-</button>
+              <input type="number" id="quantity-swwt" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-swwt')">+</button>
+            </div>
+            <button onclick="addToCart('Sweetie', 'quantity-swwy', 350)">Add to Cart</button>
+              
+            </figure>
+          </div>
+        </div>
+    </section>
+    <section class="BB" id="BB">
+      <h2>Butter Besties</h2>
+      <p>Meet your new Butter Besties—a lip collection that’s as smooth as it is sweet! These creamy,  The lightweight, nourishing texture keeps your lips feeling soft and pampered all day long. It’s the ultimate treat for your lips—because every bestie deserves a little extra butter! 🧈✨</p>
+      <div class="product-container">
+        <div class="product-item">
+          <figure>
+            <img src="churros.PNG" alt="Churros">
+            <figcaption>🍊Churros<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-ch')">-</button>
+              <input type="number" id="quantity-ch" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-ch')">+</button>
+            </div>
+            <button onclick="addToCart('Churros', 'quantity-ch', 350)">Add to Cart</button>
+          </figure>
+        </div>
+        <div class="product-item">
+          <figure>
+            <img src="canele.JPG" alt="Canele">
+            <figcaption>🍑Canele<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-ca')">-</button>
+              <input type="number" id="quantity-ca" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-ca')">+</button>
+            </div>
+            <button onclick="addToCart('Canele', 'quantity-ca', 350)">Add to Cart</button>
+          </figure>
+        </div>
+        <div class="product-item">
+          <figure>
+            <img src="brookie.PNG" alt="brookie">
+            <figcaption>💖Brookie<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-br')">-</button>
+              <input type="number" id="quantity-br" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-br')">+</button>
+            </div>
+            <button onclick="addToCart('Brookie', 'quantity-br', 350)">Add to Cart</button>
+          </figure>
+        </div>
+        <div class="product-item">
+          <figure>
+            <img src="whoopie pie.JPG" alt="Whoopie Pie">
+            <figcaption>🍒Whoopie-Pie<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-wh')">-</button>
+              <input type="number" id="quantity-wh" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-wh')">+</button>
+            </div>
+            <button onclick="addToCart('Whoopie-Pie', 'quantity-wh', 350)">Add to Cart</button>
+          </figure>
+        </div>
+        <div class="product-item">
+          <figure>
+            <img src="biscoff.PNG" alt="Biscoff">
+            <figcaption>🫐Biscoff<br>🌟Price: 350 Baht.-</figcaption>
+            <!--add to cart-->
+            <div class="quantity-control">
+              <button onclick="decreaseQuantity('quantity-bi')">-</button>
+              <input type="number" id="quantity-bi" value="0" min="0">
+              <button onclick="increaseQuantity('quantity-bi')">+</button>
+            </div>
+            <button onclick="addToCart('Biscoff', 'quantity-bi', 350)">Add to Cart</button>
+          </figure>
+        </div>
+    </section>
+  <script src="script.js"></script>
+  <footer>
+    <div class="footer">
+      <div class="footer-section quicklinks">
+        <h3>Quick Links:</h3>
+          <li><a href="final.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Product.html">Shop Now</a></li>
+          <li><a href="Review.html">Review </a></li>
+      </div>
+      <div class="footer-section sns">
+        <h3>Follow Us On</h3>
+        <a href="https://www.facebook.com/search/top?q=twentywendy"><i class="fa fa-facebook"></i></a><a href="https://www.instagram.com/twentywendy/"><i class="fa fa-instagram"></i></a>
+        
+      </div>
+      <div class="footer-content">
+        <h3>Contact Us:</h3>
+        <li><p>Email:TwentyWendy@gmail.com</p></li>
+        <li><p>Contact:+123-456-7890</p></li>
+        <li><p>Address:Address: 123 Wendy Street, Bangkok, Thailand</p></li>
+      </div>
+  
+  
+    </div>
+    <div class="footer-bottom">
+      &copy;Original Brand: TwentyWendy <br> Designed by VIN Hellan, CHEUNG SokPanha, PIN Reaksmey<br> ( For Educational Purpose Only )
+    </div>
+  </footer>
+  </html>
+  
